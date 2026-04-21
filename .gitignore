@@ -1,5 +1,11 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# macOS
+.DS_Store
+
+# Build output
+dist/
+
+# Legacy Jekyll artifacts (kept ignored after migration)
+.jekyll-cache/
+_site/
+_posts/
+.ruby-version
