@@ -49,6 +49,16 @@ a:hover {
   text-decoration: underline;
 }
 
+a[target="_blank"] {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a[target="_blank"]:hover {
+  color: #1e3f98;
+}
+
 .kicker {
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -197,6 +207,16 @@ a:hover {
   font-size: 1.1rem;
 }
 
+.project-card h3 a[target="_blank"],
+.timeline h3 a[target="_blank"] {
+  text-decoration-thickness: 1.5px;
+}
+
+.project-card h3 a[target="_blank"]:hover,
+.timeline h3 a[target="_blank"]:hover {
+  color: #1e3f98;
+}
+
 .project-sub {
   color: var(--muted);
   font-size: 0.9rem;
@@ -291,11 +311,70 @@ a:hover {
   color: inherit;
 }
 
+.contact-panel a {
+  color: #aecdff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.contact-panel a:hover {
+  color: #d8e6ff;
+}
+
+.cv-link-wrap {
+  margin-top: 0.9rem;
+}
+
+.cv-link {
+  font-size: 0.9rem;
+  opacity: 0.82;
+}
+
+.cv-link:hover {
+  opacity: 1;
+}
+
+.copyright {
+  margin-top: 1rem;
+  font-size: 0.82rem;
+  opacity: 0.75;
+}
+
+.link-note {
+  margin-top: 0.85rem;
+  font-size: 0.82rem;
+  opacity: 0.8;
+}
+
+.site-footer {
+  max-width: 980px;
+  margin: 12px auto 0;
+  padding: 0 4px;
+  color: #4f5b78;
+  font-size: 0.82rem;
+  text-align: right;
+}
+
 .not-found {
   min-height: 48vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.lead-compact {
+  margin-top: -0.4rem;
+}
+
+.section-note {
+  margin-top: 0.9rem;
+  color: var(--muted);
+}
+
+.anchor-line {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #22345f;
 }
 
 @media (max-width: 940px) {
