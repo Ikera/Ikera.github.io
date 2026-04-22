@@ -291,11 +291,49 @@ a:hover {
   color: inherit;
 }
 
+.contact-panel a {
+  color: #aecdff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.contact-panel a:hover {
+  color: #d8e6ff;
+}
+
+.cv-link-wrap {
+  margin-top: 0.9rem;
+}
+
+.cv-link {
+  font-size: 0.9rem;
+  opacity: 0.82;
+}
+
+.cv-link:hover {
+  opacity: 1;
+}
+
 .not-found {
   min-height: 48vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.lead-compact {
+  margin-top: -0.4rem;
+}
+
+.section-note {
+  margin-top: 0.9rem;
+  color: var(--muted);
+}
+
+.anchor-line {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #22345f;
 }
 
 @media (max-width: 940px) {
