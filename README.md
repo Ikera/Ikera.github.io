@@ -1,23 +1,27 @@
-# Ikera.github.io
+# ivicalakatos.com
 
-Personal site for Ivica Lakatoš.
+This is my personal portfolio site.
 
-## Stack
+I keep it intentionally simple: plain HTML and CSS, no framework, no build pipeline, no Jekyll.
 
-- Plain static HTML/CSS (no Jekyll, no Ruby build step)
-- GitHub Pages deployment via GitHub Actions
+## Tech
 
-## Local preview
+- Static HTML/CSS
+- GitHub Pages
+- GitHub Actions for deployment
 
-Run a simple local static server from the repo root, for example:
+## Run locally
+
+From the project root:
 
 ```bash
 python3 -m http.server 4000
 ```
 
-Then open http://localhost:4000
+Then open [http://localhost:4000](http://localhost:4000).
 
 ## Deploy
 
-Push to `main` or `master`.
-GitHub Actions workflow `.github/workflows/pages.yml` builds a `dist` artifact and deploys to GitHub Pages.
+I deploy by pushing to `main` (or `master`).
+
+The workflow at `.github/workflows/pages.yml` prepares a `dist/` artifact and publishes it to GitHub Pages.
