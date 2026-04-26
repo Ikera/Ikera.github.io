@@ -321,19 +321,6 @@ a[target="_blank"]:hover {
   color: #d8e6ff;
 }
 
-.cv-link-wrap {
-  margin-top: 0.9rem;
-}
-
-.cv-link {
-  font-size: 0.9rem;
-  opacity: 0.82;
-}
-
-.cv-link:hover {
-  opacity: 1;
-}
-
 .copyright {
   margin-top: 1rem;
   font-size: 0.82rem;
